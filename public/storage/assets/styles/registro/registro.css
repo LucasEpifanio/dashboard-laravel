@@ -1,0 +1,30 @@
+h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+p{
+    padding: 0.5rem 0rem 1rem 0rem;
+    font-size: 0.8rem;
+}
+
+
+.ms-4{
+    padding: 0.75rem;
+    background: white;
+}
+
+.ms-4:hover{
+    background: #C8EE44;
+}
+
+.voltar-login{
+    border: 1px solid rgba(255, 255, 255, 0.39);
+    padding: 0.5rem;
+    transition: 0.1s ease;
+}
+.voltar-login:hover{
+    border: 1px solid #C8EE44;
+        background: #C8EE44;
+        color: black;
+}

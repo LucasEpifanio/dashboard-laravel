@@ -1,0 +1,329 @@
+.total-balance,
+.total-balance1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.63rem;
+}
+.total-balance {
+  flex: 1;
+  border-radius: 10px;
+  background-color: #282541;
+  flex-direction: row;
+  align-items: center;
+  padding: 1.5rem 1.25rem;
+  gap: 0.94rem;
+}
+.main1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.63rem;
+}
+.cards,
+.total-spending {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.total-spending {
+  flex: 1;
+  border-radius: 10px;
+  background-color: #201e34;
+  align-items: center;
+  padding: 1.5rem 1.25rem;
+  gap: 0.94rem;
+}
+.cards {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 1.56rem;
+}
+.image-12-icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: auto;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.cards-graph-transaction {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.88rem;
+}
+.ic-expand-more-24px-1-icon {
+  position: relative;
+  width: 1.13rem;
+  height: 1.13rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.view-all-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.38rem;
+  text-align: right;
+  font-size: 0.88rem;
+  color: #29a073;
+}
+.tickername,
+.type {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  width: 12.5rem;
+  flex-shrink: 0;
+}
+.type {
+  width: 6.25rem;
+}
+.index1,
+.type-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.type-parent {
+  width: 15.44rem;
+  justify-content: flex-end;
+  text-align: right;
+}
+.index1 {
+  align-self: stretch;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: #78778b;
+}
+.image-8-icon {
+  position: relative;
+  width: 2.96rem;
+  height: 1.88rem;
+  object-fit: cover;
+}
+.image-8-wrapper {
+  border-radius: 5px;
+  background-color: #282541;
+  width: 3.7rem;
+  height: 2.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.aapl {
+  position: relative;
+  font-weight: 500;
+}
+.apple-inc {
+  position: relative;
+  font-size: 0.75rem;
+  color: #929eae;
+}
+.aapl-parent,
+.frame-group,
+.frame-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.aapl-parent {
+  gap: 0.31rem;
+}
+.frame-group,
+.frame-wrapper {
+  overflow: hidden;
+}
+.frame-group {
+  flex-direction: row;
+  align-items: center;
+  gap: 1.31rem;
+}
+.apr-2022,
+.div,
+.stock {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.stock {
+  font-weight: 500;
+  width: 3.06rem;
+}
+.apr-2022,
+.div {
+  width: 6.25rem;
+}
+.div {
+  font-weight: 600;
+  color: #fff;
+}
+.apr-2022 {
+  font-weight: 500;
+}
+.frame-parent,
+.stock-parent {
+  display: flex;
+  flex-direction: row;
+}
+.stock-parent {
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: right;
+  color: #78778b;
+}
+.frame-parent {
+  align-self: stretch;
+  height: 2.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.main3 {
+  align-self: stretch;
+  justify-content: flex-start;
+  font-size: 0.88rem;
+}
+.dashboarddata,
+.main3,
+.recent-transaction {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.recent-transaction {
+  align-self: stretch;
+  border-radius: 10px;
+  background-color: #1c1a2e;
+  border: 1px solid #282541;
+  justify-content: center;
+  padding: 1.25rem 1.19rem 1.25rem 1.56rem;
+  gap: 1.25rem;
+  font-size: 1.13rem;
+  color: #fff;
+}
+.dashboarddata {
+  flex: 1;
+  justify-content: flex-start;
+  gap: 1.94rem;
+}
+.image-10-icon {
+  position: relative;
+  width: 22.13rem;
+  height: 20.13rem;
+  object-fit: cover;
+}
+.view-all-group {
+  width: 4.94rem;
+  height: 1.13rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 0.06rem;
+  box-sizing: border-box;
+  gap: 0.31rem;
+  text-align: right;
+  font-size: 0.88rem;
+  color: #29a073;
+}
+.april-28-2022 {
+  position: relative;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #78778b;
+}
+.name-date,
+.name-date-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.name-date {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.44rem;
+}
+.name-date-wrapper {
+  flex-direction: row;
+  align-items: center;
+}
+.div1 {
+  position: relative;
+  font-size: 1rem;
+  font-weight: 600;
+  white-space: pre-wrap;
+  text-align: right;
+}
+.frame-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.frame-container,
+.main4,
+.main5 {
+  align-self: stretch;
+}
+.main5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.main4 {
+  gap: 0.75rem;
+  font-size: 0.88rem;
+}
+.main4,
+.scheduled-transfers,
+.wallet-schedule {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.scheduled-transfers {
+  align-self: stretch;
+  gap: 1.13rem;
+}
+.wallet-schedule {
+  width: 22.13rem;
+  padding: 0 0 2.44rem;
+  box-sizing: border-box;
+  gap: 1.88rem;
+  font-size: 1.13rem;
+  color: #fff;
+}
+.dashboarddata-parent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 2.5rem;
+  font-size: 0.88rem;
+  color: #929eae;
+}
+.dashboardcontent {
+  align-self: stretch;
+  flex: 1;
+  overflow-y: auto;
+  flex-direction: column;
+  gap: 1.88rem;
+  font-size: 1.56rem;
+  font-family: "Kumbh Sans";
+}
+
+#bar {
+    background: #c1e24b;
+    color: #fff;
+}

@@ -1,0 +1,99 @@
+@media screen and (max-width: 1200px) {
+    .dashboard1,
+    .maglo {
+      width: 7rem;
+    }
+    .bar {
+      width: auto;
+      align-self: unset;
+    }
+    .sidebar {
+      align-items: center;
+      justify-content: center;
+    }
+    .navbar:hover .maglo {
+      display: flex;
+    }
+    .navbar:hover .dashboard1,
+    .navbar:hover .transactions {
+      display: flex;
+      width: 7.5rem;
+    }
+    .dashboarddata {
+      flex: unset;
+      align-self: stretch;
+    }
+  }
+  @media screen and (max-width: 960px) {
+    .cards {
+      flex-direction: column;
+    }
+    .image-12-icon {
+      height: auto;
+    }
+    .sidebar {
+      padding: 1rem 1rem 1rem;
+    }
+    .navbar {
+      width: 12.5rem;
+    }
+    .top-bar{
+        padding-top: 1rem;
+    }
+    .dashboardcontent {
+        padding: 1.5rem;
+      }
+  }
+
+  @media screen and (max-width: 860px) {
+    .bar {
+      text-decoration: none;
+      border-radius: 8px;
+      width: 9rem;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 0.88rem 0.94rem;
+      box-sizing: border-box;
+      gap: 0.75rem;
+      cursor: pointer;
+      color: #fff;
+    }
+
+    .navbar {
+      width: 11rem;
+    }
+    .mainbox,.checkbox{
+        display: none;
+    }
+  }
+
+  @media screen and (max-width: 680px){
+    .nameavater-child {
+        position: relative;
+        border-radius: 50%;
+        width: 2.25rem;
+        height: 2.25rem;
+        object-fit: cover;
+      }
+      .top-bar{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .name{
+        width: 9rem;
+    }
+    .navbar{
+        position: fixed;
+        z-index: 999;
+    }
+
+  }
+  @media screen and (max-width: 400px){
+    .top-bar {
+      align-self:stretch;
+    }
+  }

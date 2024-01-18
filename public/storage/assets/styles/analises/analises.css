@@ -1,0 +1,20 @@
+#bar3 {
+    background: #c1e24b;
+    color: #fff;
+}
+.chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+canvas {
+    max-width: 465px;
+    max-height: 300px;
+    background: #8887923a;
+    padding: 1rem;
+    border-radius: 5px;
+}

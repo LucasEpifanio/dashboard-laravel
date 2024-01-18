@@ -1,0 +1,28 @@
+@media screen and (max-width: 1200px) {
+    .wallet-schedule {
+      align-self: stretch;
+      width: auto;
+    }
+    .dashboarddata-parent {
+      flex-direction: column;
+    }
+  }
+  @media screen and (max-width: 960px) {
+    .total-balance,
+    .total-spending {
+      flex: unset;
+      align-self: stretch;
+    }
+    .wallet-schedule {
+      align-self: stretch;
+      width: auto;
+    }
+
+  @media screen and (max-width: 680px){
+    .recent-transaction{
+      display: none;
+    }
+
+  }
+}
+

@@ -1,0 +1,322 @@
+#bar4 {
+    background: #c1e24b;
+    color: #fff;
+}
+.header1 {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+
+    justify-content: space-between;
+    padding: 2rem 2rem 0;
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+  .badge10,
+  .header1,
+  .tab {
+    flex-direction: row;
+  }
+  .badge10 {
+    border-radius: 4px;
+    background-color: rgba(12, 73, 108, 0.32);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 0.13rem 0.63rem;
+    text-align: center;
+    font-size: 0.75rem;
+    color: #38bcf7;
+  }
+  .tab {
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.5rem;
+  }
+  .pill {
+    align-self: stretch;
+    position: relative;
+    border-radius: 2px 2px 0 0;
+    background-color: #e0e3e6;
+    height: 0.13rem;
+    display: none;
+  }
+  .assetstabstab-base,
+  .line1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .line1 {
+    align-self: stretch;
+    align-items: center;
+    padding: 0 0.25rem;
+  }
+  .assetstabstab-base {
+    align-items: flex-start;
+  }
+  .line4 {
+    align-self: stretch;
+    border-radius: 2px 2px 0 0;
+    background-color: #069cdf;
+  }
+  .assetstabstab-base3,
+  .assetstabstab-base6 {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .assetstabstab-base3 {
+    display: flex;
+    color: #fff;
+  }
+  .assetstabstab-base6 {
+    display: none;
+  }
+  .navbar-settings,
+  .tabs {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .tabs {
+    flex: 1;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 5px;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    max-width: 40rem;
+    background: #44415f;
+    margin-bottom: 1rem;
+  }
+  .navbar-settings {
+    align-self: stretch;
+    justify-content: center;
+    padding: 0 2rem;
+    font-size: 0.88rem;
+    color: #a5a7ac;
+  }
+  .description,
+  .heading6 {
+    align-self: stretch;
+    position: relative;
+  }
+  .heading6 {
+    line-height: 1.75rem;
+    font-weight: 500;
+  }
+  .description {
+    font-size: 0.88rem;
+    line-height: 1.25rem;
+    color: #94979e;
+  }
+  .header2 {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.38rem;
+  }
+  .button-1 {
+    border-radius: 8px;
+    background-color: #0283c5;
+    box-shadow: 0 1px 2px rgba(13, 16, 23, 0.06);
+    overflow: hidden;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.63rem 1.25rem;
+    gap: 0.5rem;
+    font-size: 0.88rem;
+  }
+  .content11,
+  .section-heading-03 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .content11 {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+  .section-heading-03 {
+    width: 100%;
+    flex-direction: column;
+    gap: 1.25rem;
+    max-width: 40rem;
+  }
+  .description1 {
+    font-size: 0.88rem;
+    line-height: 1.25rem;
+    color: #94979e;
+    display: none;
+  }
+  .description1,
+  .divider2,
+  .helper-text,
+  .text13 {
+    align-self: stretch;
+    position: relative;
+  }
+  .divider2 {
+    height: 0.06rem;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+  }
+  .helper-text,
+  .text13 {
+    line-height: 1.25rem;
+  }
+  .text13 {
+    font-weight: 500;
+  }
+  .helper-text {
+    color: #94979e;
+  }
+  .label-with-support-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.13rem;
+  }
+  .thumb {
+    position: relative;
+    border-radius: 999px;
+    background-color: #dff1fd;
+    box-shadow: 0 1px 2px rgba(13, 16, 23, 0.06);
+    width: 1rem;
+    height: 1rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .assetscheckbox-radio-toggl {
+    border-radius: 999px;
+    background-color: #0283c5;
+    width: 2.25rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0.13rem;
+    box-sizing: border-box;
+  }
+  .list-item,
+  .toggle {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .toggle {
+    flex: 1;
+    border-radius: 6px;
+    gap: 1.5rem;
+  }
+  .list-item {
+    gap: 1rem;
+  }
+  .content12,
+  .stacked-lists-07 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  .stacked-lists-07 {
+    align-self: stretch;
+    font-size: 0.88rem;
+    color: #e0e3e6;
+  }
+  .content12 {
+    width: 100%;
+    max-width: 40rem;
+  }
+  .section1,
+  .toggle3 {
+    align-self: stretch;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .section1 {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2rem;
+    gap: 2rem;
+  }
+  .toggle3 {
+    border-radius: 6px;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+  .thumb5 {
+    position: relative;
+    border-radius: 999px;
+    background-color: #e0e3e6;
+    box-shadow: 0 1px 2px rgba(13, 16, 23, 0.06);
+    width: 1rem;
+    height: 1rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .assetscheckbox-radio-toggl5 {
+    border-radius: 999px;
+    background-color: #272a31;
+    width: 2.25rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.13rem;
+    box-sizing: border-box;
+  }
+  .content15,
+  .section2 {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .content15 {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 40rem;
+    font-size: 0.88rem;
+    color: #e0e3e6;
+  }
+  .section2 {
+    align-self: stretch;
+    align-items: center;
+    padding: 0 2rem;
+  }
+  .desktop,
+  .section2 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .desktop {
+    position: relative;
+    background-color: #03060d;
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
+    font-size: 0.88rem;
+    color: #94979e;
+    font-family: Inter;
+  }
+
+

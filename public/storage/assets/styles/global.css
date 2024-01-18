@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  ul{
+    padding-inline-start: 0;
+  }
+
+  .dashboard {
+    position: relative;
+    background-color: #1c1a2e;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    flex-direction: row;
+    text-align: left;
+    font-size: 1.13rem;
+    color: #fff;
+    font-family: Poppins;
+  }
+  .dashboard,
+  .dashboarddata-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .dashboardcontent {
+    display: flex;
+    align-self: stretch;
+    flex: 1;
+    overflow-y: auto;
+    flex-direction: column;
+    padding: 0rem 2.1rem 0rem 1.5rem;
+    gap: 1.5rem;
+    font-size: 1.56rem;
+    font-family: "Kumbh Sans";
+    transition: margin-left 0.8s ease;
+}
+
+  .navbar.slide-in + .dashboardcontent {
+    margin-left: 0rem; /* Ajuste para 0 quando a barra lateral some */
+  }
+
+::-webkit-scrollbar{
+    background: #1c1a2e;
+    width: 0.8rem;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #a8a5be50;
+}
+

@@ -1,0 +1,364 @@
+ /*Navbar*/
+
+ .menu-icon {
+  cursor: pointer;
+  border-radius: 5rem;
+  width: 1.8rem;
+  height: 1.1rem;
+  padding: 0px 15px;
+  transition: all 0.4s ease;
+}
+
+.barra-1 {
+  width: 30px;
+  height: 3px;
+  background-color: #a9b2bd;
+  margin: 0;
+  transition: 2.2s;
+}
+.barra-2 {
+  width: 25px;
+  height: 3px;
+  background-color: #a9b2bd;
+  margin: 6px 0;
+  transition: 2.1s;
+}
+.barra-3 {
+  width: 30px;
+  height: 3px;
+  background-color: #a9b2bd;
+  margin: 6px 0;
+  transition: 2.2s;
+}
+
+.menu-icon.clicked .barra-1 {
+  transform: translate(0px, 0px);
+}
+
+.menu-icon.clicked .barra-2 {
+  transform: translate(5px, 0px);
+}
+
+.menu-icon.clicked .barra-3 {
+  transform: translate(0px, 0px);
+}
+.search1-1-icon {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  padding-right: 1rem;
+}
+.icons-navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2.81rem;
+  align-items: center;
+}
+.nameavater-child {
+  position: relative;
+  border-radius: 50%;
+  width: 2.25rem;
+  height: 2.25rem;
+  object-fit: cover;
+}
+.name-user {
+  position: relative;
+  font-weight: 500;
+  padding: 0rem 0.5rem;
+}
+.dropdown-icon-nav {
+  position: relative;
+  width: 1rem;
+  height: 1rem;
+  overflow: hidden;
+}
+.name {
+  border-radius: 100px;
+  background-color: #201e34;
+  width: 13.44rem;
+  padding: 0.38rem 0.94rem 0.38rem 0.44rem;
+  box-sizing: border-box;
+}
+.name,
+.top-bar,
+.top-bar1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.top-bar{
+  box-shadow: 0px 8px 15px 0px #2d2b47;
+  margin-top: -20px;
+  padding-top: 2.5rem;
+  padding-bottom:1rem ;
+  margin-bottom: 1rem;
+  background: #1e1c30;
+  margin-left: -2rem;
+  padding-left: 1.6rem;
+  margin-right: -2rem;
+  padding-right: 1.6rem;
+}
+.top-bar1 {
+  width: auto;
+  font-size: 0.88rem;
+}
+div.top-bar {
+  align-self: stretch;
+}
+.icon {
+  width: 2.63rem;
+  height: 2.63rem;
+  object-fit: cover;
+}
+.b,
+.icon,
+.net-worth {
+  position: relative;
+}
+.b {
+  font-size: 1.5rem;
+  color: #fff;
+}
+.container {
+  position: relative;
+  box-sizing: border-box;
+  width: fit-content;
+}
+
+.mainbox {
+  box-sizing: border-box;
+  position: relative;
+  width: 230px;
+  height: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  border-radius: 160px;
+  background-color: #201e34;
+  transition: all 0.3s ease;
+}
+
+.checkbox:focus {
+  border: none;
+  outline: none;
+}
+
+.checkbox:checked {
+  right: 10px;
+}
+
+.checkbox:checked ~ .mainbox {
+  width: 50px;
+}
+
+.checkbox:checked ~ .mainbox .search_input {
+  width: 0;
+  height: 0px;
+}
+
+.checkbox:checked ~ .mainbox .iconContainer {
+  padding-right: 8px;
+}
+
+.checkbox {
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 17px;
+  top: 10px;
+  z-index: 9;
+  cursor: pointer;
+  appearance: none;
+}
+
+.search_input {
+  box-sizing: border-box;
+  height: 100%;
+  width: 170px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  font-size: 1em;
+  color: white;
+  transition: all 0.3s ease;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.search_input::placeholder {
+  color: rgba(255, 255, 255, 0.776);
+}
+
+.iconContainer {
+  box-sizing: border-box;
+  padding-top: 5px;
+  width: fit-content;
+  transition: all 0.3s ease;
+}
+
+.search_icon {
+  box-sizing: border-box;
+  fill: white;
+  font-size: 1.3em;
+}
+.paste-button {
+  position: relative;
+  display: block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button {
+  background-color: #201e34;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+
+.dropdown-content {
+  top:33px;
+  display: none;
+  font-size: 13px;
+  position: absolute;
+  z-index: 1;
+  min-width: 13.44rem;
+  background-color: #201e34f3;
+  border-radius: 0px 0px 15px 15px;
+  list-style-type: none;
+  padding: 0;
+  cursor: pointer;
+}
+label{
+  cursor: pointer;
+}
+.dropdown-content .dropdown-icon-nav,label{
+  margin: 5px;
+}
+.dropdown-content .dropdown-item {
+  color: #9ca8b8;
+  padding: 8px 10px;
+  text-decoration: none;
+  display: block;
+  transition: 0.1s;
+  cursor: pointer;
+  display: flex;
+}
+
+.dropdown-content .dropdown-item:hover {
+  background-color: #ffffff2f;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.dropdown-content #bottom:hover {
+  border-radius: 0px 0px 15px 15px;
+}
+
+.paste-button:hover button {
+  border-radius: 15px 15px 0px 0px;
+}
+.rotate-up {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
+.img-temporary-navbar{
+  position: relative;
+  width: 2.25rem !important;
+  height: 2.25rem !important;
+  background-color: #3498db;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+:root {
+  --color2: #ee4b5e;
+  --color3: white;
+  --switch-height: 0px;
+  --switch-width: var(--switch-height);
+  --knob-height: 24px;
+  --translate-distance: var(--switch-width);
+  --first-flag: rgba(5, 19, 49, 0.178) url(../../img/bandeira-estados-unidos.webp);
+  --second-flag: rgba(5, 19, 49, 0.178) url(../../img/bandeira-portugal.gif);
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.flag-switch {
+  position: relative;
+  outline: 0;
+  width: 30px;
+  height: var(--switch-height);
+  margin: none;
+}
+
+.flag-switch label {
+color: transparent;
+}
+.flag-switch:before {
+  left: 0px;
+  content: attr(data-first-lang);
+}
+
+.flag-switch:after {
+  right: 0px;
+  content: attr(data-second-lang);
+}
+
+.flag-switch input {
+  display: none;
+}
+.flag-switch input + label {
+  display: block;
+  position: absolute;
+  cursor: pointer;
+  width: 30px;
+}
+
+.flag-switch input + label:before,
+.flag-switch input + label:after {
+  content: "";
+  position: absolute;
+  border-radius: 3px;
+  transition: all 0.25s ease-in-out;
+}
+
+.flag-switch input + label:before {
+  height: var(--switch-height);
+  width: var(--switch-width) * 2;
+  background-color: var(--color2);
+}
+
+.flag-switch input + label:after {
+  left: 0px;
+  width: var(--knob-height);
+  height: var(--knob-height);
+  background: var(--second-flag);
+  background-size: 38px;
+  top: -15px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.flag-switch input:checked + label:after {
+  background: var(--first-flag);
+  background-size: 38px;
+  background-position: center;
+  background-repeat: no-repeat;
+}

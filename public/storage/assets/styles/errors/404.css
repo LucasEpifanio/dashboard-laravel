@@ -1,0 +1,71 @@
+
+body
+{
+  background-color:#1e1c30;
+  background: radial-gradient(at 50% -20%, #3a4f80, #1e1c30) fixed;
+}
+button i{
+    margin-right: 10px;
+}
+button{
+    padding: 0.88rem 0.94rem;
+    border-radius: 5px;
+    color: rgb(255, 255, 255) !important;
+    background-color: #7b748325 !important;
+    background: none;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+    outline: none;
+    margin-top: 25px;
+    position: fixed;
+    top: 0px;
+    right: 40px;
+}
+button:hover{
+    background-color: #5e657adc !important;
+}
+#handboy
+{
+   animation: swing ease-in-out 1.3s infinite alternate;
+    transform-origin: 98% 98%;
+    transform-box: fill-box;
+    
+}
+
+
+#girllight
+{
+   animation: swing ease-in-out 1.3s infinite alternate;
+    transform-origin: 0% 97%;
+    transform-box: fill-box;
+}
+
+#hairgirl
+{
+    animation: swinghair ease-in-out 1.3s infinite alternate;
+   transform-origin: 60% 0%;
+    transform-box: fill-box;
+  
+}
+
+#zero
+{
+  transform-origin:bottom;
+  transform-box:fill-box;
+  
+}
+
+/*************swing************/
+@keyframes swing {
+    0% { transform: rotate(10deg); }
+    100% { transform: rotate(-10deg); }
+}
+
+
+/*************swing hair************/
+@keyframes swinghair {
+    0% { transform: rotate(6deg); }
+    100% { transform: rotate(-6deg); }
+}

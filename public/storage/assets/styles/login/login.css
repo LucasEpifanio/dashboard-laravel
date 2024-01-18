@@ -1,0 +1,41 @@
+h2{
+    color: white;
+    padding: 2rem 0rem 0rem 0rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+p{
+    padding: 0.5rem 0rem 1rem 0rem;
+    font-size: 0.8rem;
+}
+
+.infocampo{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.ms-3{
+        background: white;
+    }
+
+    .ms-3:hover{
+        background: #C8EE44;
+    }
+
+    #password,#email{
+        background: #c9ee4400;
+    }
+
+    #criarconta{
+        border: 1px solid rgba(255, 255, 255, 0.39);
+        padding: 0.5rem;
+        transition: 0.1s ease;
+    }
+
+    #criarconta:hover{
+        border: 1px solid #C8EE44;
+        background: #C8EE44;
+        color: black;
+    }
